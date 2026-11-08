@@ -1,0 +1,25 @@
+name: mono_loaders
+description: Modern monochrome progress indicators - 3D wire and dot spheres, liquid orb, morphing shapes and more. Determinate and indeterminate, zero dependencies.
+version: 0.1.0
+homepage: https://github.com/stacxiq/mono_loaders
+repository: https://github.com/stacxiq/mono_loaders
+issue_tracker: https://github.com/stacxiq/mono_loaders/issues
+screenshots:
+  - description: All twelve mono_loaders loaders in determinate mode.
+    path: doc/preview.png
+topics: [loader, progress-indicator, animation, spinner, ui]
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
